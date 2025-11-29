@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: minehut-ultimate-24-7
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SERVER_MODE
+        value: ultimate
+    healthCheckPath: /health
+    autoDeploy: true
