@@ -1,0 +1,31 @@
+{
+  "name": "minehut-ultimate-system",
+  "version": "6.0.0",
+  "description": "Ultimate 24/7 Minehut bot system with all features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "monitor": "node status.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.15.1",
+    "minecraft-data": "^3.0.0",
+    "vec3": "^0.1.8"
+  },
+  "keywords": [
+    "minehut",
+    "24-7",
+    "ultimate",
+    "zero-wait",
+    "creative-mode",
+    "auto-sleep",
+    "combat",
+    "anti-detection"
+  ],
+  "author": "User",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
