@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tmp
+*.temp
+profiles/
+config/
+logs/
+*.json
+!package.json
